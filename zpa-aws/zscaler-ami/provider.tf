@@ -5,8 +5,8 @@ terraform {
       version = "~> 3.0"
     }
     zpa = {
-      source  = "zscaler.com/zpa/zpa"
-      version = "2.0.0"
+      source  = "zscaler/zpa"
+      #      version = "2.1.1"
     }
   }
   required_version = ">= 0.13"
