@@ -1,13 +1,11 @@
 // Create Zscaler App Connector Group
 variable "zpa_app_connector_group_name" {
-#  default = "Canada Connector Group"
-  default = "Tokyo Connector Group"
+  default = "Canada Connector Group"
   type    = string
 }
 
 variable "zpa_app_connector_group_description" {
-#  default = "Canada Connector Group"
-  default = "Tokyo Connector Group"
+  default = "Canada Connector Group"
   type    = string
 }
 
@@ -35,14 +33,12 @@ variable "zpa_app_connector_group_latitude" {
 }
 
 variable "zpa_app_connector_group_longitude" {
-#  default = "-121.8863286"
-  default = "139.69170639999993"
+  default = "-121.8863286"
   type    = string
 }
 
 variable "zpa_app_connector_group_location" {
-#  default = "San Jose, CA, United States"
-  default = "Tokyo, JP, Japan"
+  default = "San Jose, CA, United States"
   type    = string
 }
 
