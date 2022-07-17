@@ -15,28 +15,27 @@ variable "zpa_app_connector_group_enabled" {
 }
 
 variable "zpa_app_connector_group_city_country" {
-  default = "San Jose, CA"
+  default = "Toronto, CA"
   type    = string
 }
 
 variable "zpa_app_connector_group_country_code" {
-  default = "US"
+  default = "CA"
   type    = string
 }
 
 variable "zpa_app_connector_group_latitude" {
- # default = "37.3382082"
-  default = "35.6894875"
+  default = "43.653226"
   type    = string
 }
 
 variable "zpa_app_connector_group_longitude" {
-  default = "-121.8863286"
+  default = "-79.3831843"
   type    = string
 }
 
 variable "zpa_app_connector_group_location" {
-  default = "San Jose, CA, United States"
+  default = "Toronto, CA, Canada"
   type    = string
 }
 
