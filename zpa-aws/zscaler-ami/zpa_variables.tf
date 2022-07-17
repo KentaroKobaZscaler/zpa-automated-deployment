@@ -15,14 +15,12 @@ variable "zpa_app_connector_group_enabled" {
 }
 
 variable "zpa_app_connector_group_city_country" {
-#  default = "San Jose, CA"
-    default = "Tokyo, JP"
+  default = "San Jose, CA"
   type    = string
 }
 
 variable "zpa_app_connector_group_country_code" {
-  # default = "US"
-  default = "JP"
+  default = "US"
   type    = string
 }
 
