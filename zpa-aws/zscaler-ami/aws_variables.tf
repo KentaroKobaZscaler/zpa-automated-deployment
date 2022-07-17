@@ -1,7 +1,8 @@
 # aws variables
 variable "aws-region" {
   description = "The AWS region."
-  default     = "ca-central-1"
+ # default     = "ca-central-1"
+  default     = "ap-northeast-1"
 }
 
 variable "name-prefix" {
